@@ -1,0 +1,88 @@
+extends base
+block title
+	title= "版块" + " - " + site.title
+
+block header
+	include include/header
+block footer
+	include include/footer
+block content
+	.single
+		#board
+			.page_wrap
+				ul.cat_list.clearfix
+					li.taotie
+						a.pic(href="/category/饕餮")
+							span
+						h2
+							a(href="/category/饕餮") [ 饕餮 ] 
+						p
+							| 美食向文章
+					li.jilv
+						a.pic(href="/category/寄旅")
+							span
+						h2
+							a(href="/category/寄旅") [ 寄旅 ] 
+						p
+							| 旅记向文章
+					li.aizhi
+						a.pic(href="/category/爱智")
+							span
+						h2
+							a(href="/category/爱智") [ 爱智 ] 
+						p
+							| 哲思向文章
+					li.guanzhui
+						a.pic(href="/category/管锥")
+							span
+						h2
+							a(href="/category/管锥") [ 管锥 ] 
+						p
+							| 学术向文章
+					li.nianhua
+						a.pic(href="/category/拈花")
+							span
+						h2
+							a(href="/category/拈花") [ 拈花 ] 
+						p
+							| 艺术向文章
+					li.wanwu
+						a.pic(href="/category/玩物")
+							span
+						h2
+							a(href="/category/玩物") [ 玩物 ] 
+						p
+							| 癖好向文章
+					li.zhimeng
+						a.pic(href="/category/织梦")
+							span
+						h2
+							a(href="/category/织梦") [ 织梦 ] 
+						p
+							| 连载文章
+					li.dongwuyuan
+						a.pic(href="/category/人间动物园")
+							span
+						h2
+							a(href="/category/人间动物园") [ 人间动物园 ] 
+						p
+							| 一些灵魂交互式的彩蛋。
+
+
+				.clear
+				.pager.clearfix
+					a.gotop.icon-arrow_up(href="#")
+
+		.page_wrap
+			#fb_comments_container
+				.ds-thread(data-thread-key="categories", data-title="版块", data-url="http://medicino.net/categories")
+				script(type="text/javascript").
+					var duoshuoQuery = {short_name:"greenzorro"};
+					(function() {
+						var ds = document.createElement('script');
+						ds.type = 'text/javascript';ds.async = true;
+						ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+						ds.charset = 'UTF-8';
+						(document.getElementsByTagName('head')[0] 
+						 || document.getElementsByTagName('body')[0]).appendChild(ds);
+					})();

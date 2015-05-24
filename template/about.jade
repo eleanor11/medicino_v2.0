@@ -1,0 +1,227 @@
+extends base
+block title
+	title= "关于药丸" + " - " + site.title
+
+block header
+	include include/header
+block footer
+	include include/footer
+block content
+	.single
+		#about
+			.intro
+				.text
+					p
+						|《药丸 Medicino》是一本力求关注生活本身、治愈生活的原创性轻杂志，我们致力于把广阔而辽远的视界、无关却有关的人事带给读者们，去发掘有关这个世界的一切惊奇美好。
+						br
+					p
+						|《药丸 Medicino》下辖八大版块：饕餮（美食）、寄旅（旅行）、爱智（哲思）、管锥（学术）、拈花（艺术）、玩物（癖好）、织梦（连载）和人间动物园（彩蛋）。
+						br
+					p
+						|在这里，遇见生活，遇见自己。
+						br
+						br
+						br
+						br
+						br
+						br
+				.contact
+					p
+						|《药丸 Medicino》
+						br
+						| 网页端地址： 
+						a(href="http://medicino.net") medicino.net
+						br
+						| 微博： 
+						a(href="http://weibo.com/p/1005055502096195/home") 药丸Medicino 
+						br
+						| 微信订阅号：Medicino（微信号：yaowanmedicino）
+						br
+						| 查看发刊词请点击：
+						a(href="post/du-ji") 渡己
+						br
+						|联系邮箱： medicino@163.com
+						//a(href="medicino@163.com") medicino@163.com
+				.dec
+					p
+						| * 投稿请发邮件至联系邮箱
+
+			.members
+				.item
+					h2.title
+				 		|团队成员
+					.content
+						.row
+							.name
+								p 潘明聪
+							.job
+								p 主编
+							.school
+								p 香港大学
+							p 东半球最有情怀的理想主义者（可能是真的），重型生活体验家。
+						.row
+							.name
+								p 蒋童
+							.job
+								p 副主编
+							.school
+								p 浙江大学
+							p 不会概括自己所以简介留空。
+						.row
+							.name
+								p 高天
+							.job
+								p 运营
+							.school
+								p 上海交通大学
+							p 一个中庸之道的实践派。
+						.row
+							.name
+								p 荀琳玲
+							.job
+								p 技术
+							.school
+								p 上海交通大学
+							p 心怀善意。
+						.row
+							.name
+								p 刘丹青
+							.job
+								p 艺术
+							.school
+								p 纽约视觉艺术学院
+							p 做自己。
+						.row
+							.name
+								p 干可雨
+							.job
+								p 平面
+							.school
+								p 浙江大学
+							p 奇怪的人。
+			.notice.clearfix
+				.item
+					h4
+						span 近期特约作者
+						br
+						span（按姓氏首字母）
+					.content
+						.row
+							.name
+								p 包晨风
+							.school
+								p 普里美特理论物理研究所
+						.row
+							.name
+								p 陈睿东
+							.school
+								p 康奈尔大学
+						.row
+							.name
+								p 蔡婉婧
+							.school
+								p 香港大学
+						.row
+							.name
+								p 顾昱洲
+							.school
+								p 麻省理工学院
+						.row
+							.name
+								p 蒋童
+							.school
+								p 浙江大学
+						.row
+							.name
+								p 李大猫
+							.school
+								p 未知
+						.row
+							.name
+								p 刘丹青
+							.school
+								p 纽约视觉艺术学院
+						.row
+							.name
+								p 刘启鹏
+							.school
+								p 普林斯顿大学
+						.row
+							.name
+								p 罗杰
+							.school
+								p 加州理工学院
+						.row
+							.name
+								p 潘明聪
+							.school
+								p 香港大学
+						.row
+							.name
+								p 王浩
+							.school
+								p 清华大学
+						.row
+							.name
+								p 王苡人
+							.school
+								p 北京大学
+						.row
+							.name
+								p 王亦茗
+							.school
+								p 中国人民大学
+						.row
+							.name
+								p 吴争锴
+							.school
+								p 北京大学
+						.row
+							.name
+								p 熊浩
+							.school
+								p 复旦大学
+						.row
+							.name
+								p 颜示硼
+							.school
+								p IESE
+						.row
+							.name
+								p 周舒哲
+							.school
+								p 香港大学
+						.row
+							.name
+								p 周苏婕
+							.school
+								p 西安交通大学
+						.row
+							.name
+								p 朱睿
+							.school
+								p 北京大学
+						.row
+							.name
+								p 朱赛德
+							.school
+								p 清华大学
+						.row
+							.dec
+								p * 其他后续约稿作者和投稿作者将在推文中注明
+				.clear
+			.pager.clearfix
+				a.gotop.icon-arrow_up(href="#")
+		.page_wrap
+		#fb_comments_container
+			.ds-thread(data-thread-key="about", data-title="关于可乐橙", data-url="http://medicino.net/about")
+			script(type="text/javascript").
+				var duoshuoQuery = {short_name:"greenzorro"};
+				(function() {
+					var ds = document.createElement('script');
+					ds.type = 'text/javascript';ds.async = true;
+					ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+					ds.charset = 'UTF-8';
+					(document.getElementsByTagName('head')[0] 
+					 || document.getElementsByTagName('body')[0]).appendChild(ds);
+				})();

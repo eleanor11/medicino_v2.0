@@ -1,0 +1,320 @@
+extends base
+
+block title
+	title= site.title
+
+block header
+	.index_header
+		include include/header
+block footer
+	include include/footer
+
+block content
+	#categories.container.clearfix 
+		.column1
+			.item
+				.nianhua
+					.title
+						a(href="/category/拈花")
+							p
+								| Medicino · 拈花
+			.item
+				.jilv
+					.title
+						a(href="/category/寄旅")
+							p
+								| Medicino · 寄旅
+					ul.articles.clearfix
+						li.clearfix
+							.name
+								p
+									a(href="/post/ji-lu/jing-cheng-ren-shi") 京城人事  
+							.author
+								p
+									| 文 / 王亦茗
+							.issue
+								p
+									| VOL.5
+						li
+							.name
+								p
+									a(href="/post/ji-lu/ye-mao-shan") 野猫禅 
+							.author
+								p
+									| 文 / 李大猫
+							.issue
+								p
+									| VOL.4
+						li
+							.name
+								p
+									a(href="/post/ji-lu/lu-xing-de-kong-huang") 旅行的恐慌  
+							.author
+								p
+									| 文 / 周苏捷
+							.issue
+								p
+									| VOL.2
+						li
+							.name
+								p
+									a(href="/post/ji-lu/tai-bei-ji-xing") 台北纪行  
+							.author
+								p
+									| 文 / 李大猫
+							.issue
+								p
+									| VOL.2
+						li
+							.name
+								p
+									a(href="/post/ji-lu/dong-tu-chang-chun") 冻土长春  
+							.author
+								p
+									| 文 / 周舒哲
+							.issue
+								p
+									| VOL.1
+		.column2
+			.item
+				.aizhi
+					.title
+						a(href="/category/爱智")
+							p 
+								| Medicino · 爱智
+					ul.articles
+						li
+							.name
+								p
+									a(href="/post/ai-zhi/dui-jiao-lang-man-ning-zhu-mei-miao") 对焦浪漫凝住美妙  
+							.author
+								p
+									| 文 / 蒋童
+							.issue
+								p
+									| VOL.4
+						li
+							.name
+								p
+									a(href="/post/ai-zhi/zhi-yao-yi-fen-zhong") 只要一分钟  
+							.author
+								p
+									| 文 / 蒋童
+							.issue
+								p
+									| VOL.4
+						li
+							.name
+								p
+									a(href="/post/ai-zhi/wang-luo-ba-wo-men-bian-sha-liao-ma") 网络把我们变傻了吗  
+							.author
+								p
+									| 文 / 辉格
+							.issue
+								p
+									| VOL.4
+						li
+							.name
+								p
+									a(href="/post/ai-zhi/jing-dian-du-bu-yan") 经典不厌读 
+							.author
+								p
+									| 文 / 潘一禾
+							.issue
+								p
+									| VOL.4
+						li
+							.name
+								p
+									a(href="/post/ai-zhi/sha-le-mei-de-dan-sheng") 莎乐美的诞生 
+							.author
+								p
+									| 文 / 匿名
+							.issue
+								p
+									| VOL.3
+			.item
+				.guanzhui
+					.title
+						a(href="/category/管锥")
+							p 
+								| Medicino · 管锥
+					ul.articles
+						li.clearfix
+							.name
+								p
+									a(href="/post/guan-zhui/-ge-ren-he-ta-de-shi-ba-ge-tian-xia-di-xia") 一个人和他的十八个天下第一（下）  
+							.author
+								p
+									| 文 / 周舒哲
+							.issue
+								p
+									| VOL.4
+						li.clearfix
+							.name
+								p
+									a(href="/post/guan-zhui/-ge-ren-he-ta-de-shi-ba-ge-tian-xia-di-shang") 一个人和他的十八个天下第一（上）  
+							.author
+								p
+									| 文 / 周舒哲
+							.issue
+								p
+									| VOL.4
+						li
+							.name
+								p
+									a(href="/post/guan-zhui/ge-wu") 格物  
+							.author
+								p
+									| 文 / 罗杰
+							.issue
+								p
+									| VOL.2
+			.item
+				.wanwu
+					.title
+						a(href="/category/玩物")
+							p 
+								| Medicino · 玩物
+					ul.articles
+						li.clearfix
+							.name
+								p
+									a(href="/post/wan-wu/shi-mian-shang-de-bi-ji-ben-dian-nao") 市面上的笔记本电脑:从 XPS 13 谈起 
+							.author
+								p
+									| 文 / 冷俊园
+							.issue
+								p
+									| VOL.4
+						li
+							.name
+								p
+									a(href="/post/wan-wu/xiu-xie-lao-ren") 修鞋老人
+							.author
+								p
+									| 文 / 李倬尔
+							.issue
+								p
+									| VOL.3
+						li
+							.name
+								p
+									a(href="/post/wan-wu/you-guan-na-shi-de-fu-yang-sheng-xi") 有关纳什的俯仰声息
+							.author
+								p
+									| 文 / 周舒哲
+							.issue
+								p
+									| VOL.3
+		.column3
+			.item
+				.taotie
+					.title
+						a(href="/category/饕餮")
+							p 
+								| Medicino · 饕餮
+					ul.articles
+						li.clearfix
+							.latest
+								img(src="饕餮/_image/提拉米苏教程/42.jpg")
+								.name
+									p
+										a(href="/post/tao-tie/ti-la-mi-su-jiao-cheng") 提拉米苏教程
+								.author
+									p
+										| 文 / 宁英格
+								.issue
+									p
+										| VOL.1
+
+
+			.item
+				.zhimeng				
+					.title
+						a(href="/category/织梦")
+							p 
+								| Medicino · 织梦
+					ul.articles
+						li.clearfix
+							.name
+								p
+									a(href="/post/zhi-meng/hu-bian-de-jian-qu-wen") 湖边的一件趣闻
+							.author
+								p
+									| 文 / 朱睿
+							.issue
+								p
+									| VOL.5
+						li.clearfix
+							.name
+								p
+									a(href="/post/zhi-meng/zhen-zhu-nai-cha-yun-dong") 珍珠奶茶运动
+							.author
+								p
+									| 文 / 周苏婕
+							.issue
+								p
+									| VOL.5
+						li.clearfix
+							.name
+								p
+									a(href="/post/zhi-meng/jian-shen-fang-de-nu-ren") 健身房的女人
+							.author
+								p
+									| 文 / 周苏婕
+							.issue
+								p
+									| VOL.3
+						li.clearfix
+							.name
+								p
+									a(href="/post/zhi-meng/lie-ma-gong-lu-de-feng-san") 列马公路的风 （三）
+							.author
+								p
+									| 文 / 蒋童
+							.issue
+								p
+									| VOL.2
+						li.clearfix
+							.name
+								p
+									a(href="/post/zhi-meng/lie-ma-gong-lu-de-feng-er") 列马公路的风 （二）
+							.author
+								p
+									| 文 / 蒋童
+							.issue
+								p
+									| VOL.2
+						li.clearfix
+							.name
+								p
+									a(href="/post/zhi-meng/lie-ma-gong-lu-de-feng") 列马公路的风 （一）
+							.author
+								p
+									| 文 / 蒋童
+							.issue
+								p
+									| VOL.1
+	
+	#introductions.container.clearfix
+		.title.clearfix
+			.logo
+				img(src="template/img/logo/middle.jpg")
+			.subtitle
+				p
+					| · 药丸Medicino · 这个世界的惊奇美好
+		.notice.clearfix
+			.contact
+				p
+					| 微信平台：Medicino (微信号: yaowanmedicino)
+					br
+					| 微博： 
+					a(href="http://weibo.com/p/1005055502096195/home") 药丸Medicino 
+					br
+					| 联系邮箱: medicino@163.com
+			.clarification
+				p
+					《药丸Medicino》所有文章，除特别声明之外，均为原创，如需转载至其他媒体，请与我们联系。
+		.qr_code.clearfix
+			img(src="template/img/weichat.jpg")
